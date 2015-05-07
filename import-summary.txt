@@ -1,0 +1,117 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .DS_Store
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/android_support_v4.xml
+* .idea/libraries/android_support_v4_ff47d9d72ea1bede1f18d2a9ed9179a4.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* ic_launcher-web.png
+* out/
+* out/production/
+* out/production/扫雷Demo/
+* out/production/扫雷Demo/Block/
+* out/production/扫雷Demo/Block/BLockMang.class
+* out/production/扫雷Demo/Block/Block.class
+* out/production/扫雷Demo/DB/
+* out/production/扫雷Demo/DB/Sql.class
+* out/production/扫雷Demo/DB/SqlMang.class
+* out/production/扫雷Demo/GameView/
+* out/production/扫雷Demo/GameView/GameView.class
+* out/production/扫雷Demo/GameView/GameViewMang.class
+* out/production/扫雷Demo/GameView/TimeLeiNumView.class
+* out/production/扫雷Demo/LogoView/
+* out/production/扫雷Demo/LogoView/LogoView.class
+* out/production/扫雷Demo/MediaMusic/
+* out/production/扫雷Demo/MediaMusic/MusicMang.class
+* out/production/扫雷Demo/SoundPoll/
+* out/production/扫雷Demo/SoundPoll/Sound.class
+* out/production/扫雷Demo/Uers/
+* out/production/扫雷Demo/Uers/Uers.class
+* out/production/扫雷Demo/com/
+* out/production/扫雷Demo/com/app/
+* out/production/扫雷Demo/com/app/saolei/
+* out/production/扫雷Demo/com/app/saolei/activity/
+* out/production/扫雷Demo/com/app/saolei/activity/BuildConfig.class
+* out/production/扫雷Demo/com/app/saolei/activity/GameActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/HelpActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/InputActivity$1.class
+* out/production/扫雷Demo/com/app/saolei/activity/InputActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/LogoActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/MenuActivity$1.class
+* out/production/扫雷Demo/com/app/saolei/activity/MenuActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$attr.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$dimen.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$drawable.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$id.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$layout.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$menu.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$raw.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$string.class
+* out/production/扫雷Demo/com/app/saolei/activity/R$style.class
+* out/production/扫雷Demo/com/app/saolei/activity/R.class
+* out/production/扫雷Demo/com/app/saolei/activity/RankActivity$1.class
+* out/production/扫雷Demo/com/app/saolei/activity/RankActivity$Myadapter.class
+* out/production/扫雷Demo/com/app/saolei/activity/RankActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/SelectActivity$1.class
+* out/production/扫雷Demo/com/app/saolei/activity/SelectActivity.class
+* out/production/扫雷Demo/com/app/saolei/activity/SetActivity$1.class
+* out/production/扫雷Demo/com/app/saolei/activity/SetActivity.class
+* out/production/扫雷Demo/扫雷Demo.apk
+* out/production/扫雷Demo/扫雷Demo.unaligned.apk
+* proguard-project.txt
+* 扫雷Demo.iml
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

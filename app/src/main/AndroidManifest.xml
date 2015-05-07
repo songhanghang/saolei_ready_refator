@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.app.saolei.activity"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="8"
+            android:targetSdkVersion="19"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/grass_10_flag_yes"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name="com.app.saolei.activity.LogoActivity"
+                android:label="@string/app_name"
+                android:noHistory="true"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.MenuActivity"
+                android:label="@string/title_activity_menu"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+                >
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.HelpActivity"
+                android:label="@string/title_activity_help"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.SetActivity"
+                android:label="@string/title_activity_set"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.RankActivity"
+                android:label="@string/title_activity_rank"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.GameActivity"
+                android:label="@string/title_activity_game"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.InputActivity"
+                android:label="@string/title_activity_input"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        </activity>
+        <activity
+                android:name="com.app.saolei.activity.SelectActivity"
+                android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+                android:label="@string/title_activity_select">
+        </activity>
+    </application>
+
+</manifest>
